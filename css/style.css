@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{margin: 0;padding: 0;}
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+/*==== header area start ====*/
+
+.header-area {
+  background-color: #87509c;
+}
+.logo {
+  float: left;
+  width: 40%;
+}
+.mainmenu {
+  float: left;
+  width: 60%;
+  text-align: right;
+}
+.header-top {
+  overflow: hidden;
+}
+.logo h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 48px;
+}
+.mainmenu ul {
+  list-style: none;
+}
+.mainmenu ul li {
+  display: inline-block;
+  padding: 24px 12px;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header-bottom h2 {
+  width: 80%;
+  font-size: 42.16px;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.header-bottom {
+  text-align: center;
+  padding: 145px 0;
+}
+.header-bottom a {
+  display: inline-block;
+  background-color: #eb7d4b;
+  padding: 15px 89px;
+  color: white;
+  border-radius: 5px;
+}
+.mainmenu ul li a {
+  color: white;
+}
+/*==== header area stop ====*/
+/*==== service area start ====*/
+
+h5 {
+  margin: 7px;
+  color: #093e5d;
+}
+.service-top {
+  text-align: center;
+}
+.service-top h2 {
+  font-size: 42px;
+}
+.service-top p {
+  width: 60%;
+  margin: 13px auto;
+}
+.service-area{
+	background: #17c2a4;
+	color: #fff;
+}
+.service-area, .team-area {
+  padding: 140px 0;
+}
+.service-bottom {
+  overflow: hidden;
+}
+.service1 {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.service1 p {
+  width: 90%;
+  margin: 0 auto;
+}
+.service1 h3 {
+  margin-top: 30px;
+}
+
+.afterborder h2 {
+  position: relative;
+}
+.afterborder h2::after {
+  content: "";
+  position: absolute;
+  background: #8b9392;
+  height: 5px;
+  width: 70px;
+  left: 50%;
+  bottom: -3px;
+  margin-left: -35px;
+}
+.service1.border img {
+  border-radius: 50%;
+}
+.service1.border img {
+  height: 200px;
+  width: 200px;
+}
+/*==== service area stop ====*/
+/*==== skill area start ====*/
+.skill-area-top h2 {
+  font-size: 42px;
+  text-align: center;
+}
+.skill-area-top p {
+  width: 45%;
+  margin: 18px  auto;
+  text-align:center
+}
+h4 {
+  color: #3c4761;
+}
+.skill1 {
+  float: left;
+  width: 25%;
+}
+.photo img {
+  width: 150px;
+  height: 150px;
+}
+.cname {
+  text-align: center;
+}
+.photo {
+  text-align: center;
+}
+/*==== skill area stop ====*/
+/*==== portfolio area start ====*/
+.portfolio-area {
+	background: #ffdd99;
+}
+.portfolio-top {
+  text-align: center;
+}
+.portfolio-area {
+  padding: 150px 0;
+}
+.skill-area {
+  overflow: hidden;
+}
+.portfolio-bottom {
+}
+.botton-area ul {
+  list-style: none;
+}
+.botton-area ul li {
+  display: inline-block;
+  background: #281f07;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+.botton-area {
+  text-align: center;
+}
+
+.botton-area ul li:hover {
+  background: black;
+  color: red;
+}
+
+.photo-area {
+  overflow: hidden;
+}
+.PHOTO1 {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.PHOTO1 img {
+  width: 90%;
+}
+.PHOTO1 {
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h6 {
+  padding: 12px;
+}
+
+.buttons-area {
+  text-align: center;
+}
+.buttons-area button {
+  background: teal;
+  border: none;
+  color: #fff;
+  padding: 15px 70px;
+  font-weight: 700;
+  border-radius: 5px;
+   border-style: diuble;
+  border-color: red;
+  border-width: 6px;
+}
+
+}
+/*==== portfolio area stop ====*/
+/*====  abouts area start ====*/
+.aboutf1 {
+	height: 244px;
+}
+.about-top {
+	text-align: center;
+}
+.about-top {
+  text-align: center;
+}
+.aboutf1 {
+  float: left;
+  width: 50%;
+}
+.about-bottom {
+  overflow: hidden;
+}
+.photo {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+.photo img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.content {
+  float: left;
+  width: 70%;
+}
+.about-bottom {
+  margin-top: 50px;
+}
+p {
+  padding: 23px;
+}
+h2 {
+  padding: 12px;
+}
+.aboutf1.mb {
+	margin-bottom: 30px;
+}
+.aboutus-area {
+	margin-bottom: 150px;
+}
+.container p {
+	font-style: italic;
+}
+
+.aboutus-area {
+	background: #d74680;
+	color: #fff;
+}
+/*==== abouts area stop ====*/
+/*==== contect area start ====*/
+
+textarea {
+  width: 90%;
+}
+.contact-bottom {
+text-align: center;}
+
+.contact-area {
+	text-align: center;
+}
+  
+input {
+  padding: 10px 157px 10px 0;
+  margin-bottom: 11px;
+}
+/*==== contect area stop ====*/
